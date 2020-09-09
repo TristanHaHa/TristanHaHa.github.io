@@ -1,3 +1,40 @@
+body,html {
+  margin:0;
+  padding:0;
+}
 body {
   background-color: rgba(191, 215, 234);
+}
+#header-rect {
+  position: relative;
+  z-index: -1;
+  width: 100%;
+  height: 275px;
+  display: flex;
+  background: rgba(50, 108, 154);
+  font-size: 0;
+}
+
+#header-text {
+  font-size: 30px;
+  padding-left: 20px;
+  line-height: 25px;
+  position: relative;
+  position: relative;
+  top: 60%;
+  transform: translateY(-50%);
+}
+
+#content {
+  position: relative;
+  top: -25px;
+  padding: 20px;
+}
+
+h2 {
+  font-size: 30px;
+}
+
+.description {
+    font-size: 20px;
 }
