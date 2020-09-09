@@ -3,6 +3,7 @@ body,html {
   padding:0;
 }
 body {
+  font-family: Inconsolata;
   background-color: rgba(191, 215, 234);
 }
 #header-rect {
@@ -23,6 +24,10 @@ body {
   position: relative;
   top: 60%;
   transform: translateY(-50%);
+}
+
+#icons {
+  
 }
 
 #content {
