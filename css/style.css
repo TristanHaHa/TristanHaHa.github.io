@@ -66,15 +66,24 @@ a:hover {
   position: relative;
   top: 50px;
   padding: 20px;
-  line-height: 30px;
+  line-height: 40px;
+  font-weight: 500;
 }
 
-h2 {
-  font-size: 40px;
+.section {
+  margin-bottom: 50px;
+}
+
+.heading {
+  position: relative;
+  display:inline-block;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 30px;
 }
 
 .description {
-    font-size: 20px;
+  font-size: 20px;
 }
 
 #about {
@@ -86,15 +95,24 @@ h2 {
 }
 
 #about-header {
-  position: relative;
+  position: relative;d
+  left: 0%;
+  transform: translateX(-200%);
   white-space: nowrap;
   margin-right: 100px;
-  margin-top: -1em;
+  margin-top: -0.3em;
+}
+
+.underline {
+  position: relative;
+  width:50%;
+  height: 2px;
+  background-color:rgba(50, 108, 154);
+  margin-top: -20px;
 }
 
 #about-description {
   position: relative;
-  line-height: 30px;
 }
 
 #contact-icons {
