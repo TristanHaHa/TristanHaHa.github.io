@@ -1,45 +1,102 @@
-body,html {
+body {
   margin:0;
   padding:0;
-}
-body {
   font-family: Inconsolata;
   background-color: rgba(191, 215, 234);
+  max-width: 100%;
+  overflow-x: hidden;
 }
+
+h1 {
+  margin-top: 0px;
+}
+
 #header-rect {
   position: relative;
-  z-index: -1;
   width: 100%;
-  height: 275px;
-  display: flex;
+  height: 400px;
   background: rgba(50, 108, 154);
   font-size: 0;
+  padding-left: 200px;
+  padding-top: 150px;
+}
+
+#header-triangle {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-bottom: 550px solid rgba(191, 215, 234);
+  border-left: 4250px solid transparent;
+  pointer-events: none;
 }
 
 #header-text {
-  font-size: 30px;
-  padding-left: 20px;
-  line-height: 25px;
-  position: relative;
-  position: relative;
-  top: 60%;
-  transform: translateY(-50%);
+  white-space: nowrap;
 }
 
-#icons {
-  
+#header-name {
+  font-size: 42px;
+  margin-bottom: -35px;
+}
+
+#header-description {
+  font-size: 32px;
+}
+
+.icons {
+  font-size: 32px;
+}
+
+i {
+  margin-right: 10px;
+}
+
+a:link {
+  color: rgba(0,0,0);
+  text-decoration: none;
+}
+
+a:hover {
+  color: rgba(15, 32, 46);
 }
 
 #content {
+  margin: auto;
+  width: 1000px;
   position: relative;
-  top: -25px;
+  top: 50px;
   padding: 20px;
+  line-height: 30px;
 }
 
 h2 {
-  font-size: 30px;
+  font-size: 40px;
 }
 
 .description {
     font-size: 20px;
+}
+
+#about {
+  position: relative;
+  display: flex;
+  align-items: flex-start;
+  margin: none;
+  left: 0;
+}
+
+#about-header {
+  position: relative;
+  white-space: nowrap;
+  margin-right: 100px;
+  margin-top: -1em;
+}
+
+#about-description {
+  position: relative;
+  line-height: 30px;
+}
+
+#contact-icons {
+  font-size: 20px;
 }
