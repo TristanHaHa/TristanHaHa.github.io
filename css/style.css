@@ -60,6 +60,10 @@ a:hover {
   color: rgba(15, 32, 46);
 }
 
+a:visited {
+  text-decoration: none;
+}
+
 #content {
   margin: auto;
   width: 1000px;
@@ -95,7 +99,7 @@ a:hover {
 }
 
 #about-header {
-  position: relative;d
+  position: relative;
   left: 0%;
   transform: translateX(-200%);
   white-space: nowrap;
@@ -115,6 +119,38 @@ a:hover {
   position: relative;
 }
 
+#projects {
+  position: relative;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  margin: none;
+  left: 0;
+}
+
+.project {
+  position: relative;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: row;
+  margin: none;
+  left: 0;
+}
+
+.project-header {
+  position: relative;
+  left: 0%;
+  white-space: nowrap;
+}
+
+.project-description {
+  position: relative;
+  left: 0%;
+  outline-color: red;
+  outline-style: dashed;
+}
+
 #contact-icons {
-  font-size: 20px;
+  text-align: center;
+  font-size: 30px;
 }
