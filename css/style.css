@@ -65,9 +65,9 @@ a:visited {
 }
 
 #content {
+  position: relative;
   margin: auto;
   width: 1000px;
-  position: relative;
   top: 50px;
   padding: 20px;
   line-height: 40px;
@@ -80,6 +80,7 @@ a:visited {
 
 .heading {
   position: relative;
+  text-align: center;
   display:inline-block;
   left: 50%;
   transform: translateX(-50%);
@@ -117,6 +118,12 @@ a:visited {
 
 #about-description {
   position: relative;
+}
+
+#projects {
+  position: relative;
+  margin: auto;
+
 }
 
 .project-table {
@@ -178,9 +185,19 @@ a:visited {
 }
 
 .project-link {
-  position: absolute;
   bottom: 0;
+  color: blue !important;
+  text-decoration: underline !important;
+}
 
+#github-row {
+  margin: auto;
+  margin-top: 30px;
+  width: 50% !important;
+  text-align: center;
+}
+
+#github-link {
   color: blue !important;
   text-decoration: underline !important;
 }
@@ -188,4 +205,9 @@ a:visited {
 #contact-icons {
   text-align: center;
   font-size: 30px;
+}
+
+footer {
+  position: absolute;
+  margin-left: 20px;
 }
