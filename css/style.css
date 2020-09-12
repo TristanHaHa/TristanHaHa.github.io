@@ -31,19 +31,23 @@ h1 {
 }
 
 #header-text {
+  position: relative;
   white-space: nowrap;
 }
 
 #header-name {
+  position: relative;
   font-size: 42px;
   margin-bottom: -35px;
 }
 
 #header-description {
+  position: relative;
   font-size: 32px;
 }
 
-.icons {
+#icons {
+  position: relative;
   font-size: 32px;
 }
 
