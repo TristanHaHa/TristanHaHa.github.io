@@ -121,6 +121,11 @@ a:visited {
   position: relative;
 }
 
+#resume {
+  color: blue !important;
+  text-decoration: underline !important;
+}
+
 #projects {
   position: relative;
   margin: auto;
