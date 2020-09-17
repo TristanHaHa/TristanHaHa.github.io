@@ -47,27 +47,23 @@ h1 {
   font-size: 32px;
 }
 
-#icons {
+.icons {
   position: relative;
   font-size: 32px;
 }
 
+.icon {
+    display: inline-block;
+    color: #000;
+    padding: 3px;
+}
+.icon:hover {
+    transition: 0.3s;
+    transform: scale(1.3);
+}
+
 i {
   margin-right: 10px;
-}
-
-a:link {
-  color: rgba(0,0,0);
-  text-decoration: none;
-}
-
-a:hover {
-  color: rgba(15, 32, 46);
-}
-
-a:visited {
-  color: rgba(0,0,0);
-  text-decoration: none;
 }
 
 #content {
@@ -124,11 +120,6 @@ a:visited {
 
 #about-description {
   position: relative;
-}
-
-#resume {
-  color: blue !important;
-  text-decoration: underline !important;
 }
 
 #projects {
@@ -203,8 +194,6 @@ a:visited {
   position: absolute;
   margin-bottom: 5px;
   bottom: 0;
-  color: blue !important;
-  text-decoration: underline !important;
 }
 
 #github-row {
@@ -215,10 +204,6 @@ a:visited {
   text-align: center;
 }
 
-#github-link {
-  color: blue !important;
-  text-decoration: underline !important;
-}
 
 #contact-icons {
   text-align: center;
